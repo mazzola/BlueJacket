@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppTheme" >
+    
+	<com.google.android.maps.MapView
+	    android:id="@+id/mapview"
+	    style="@style/AppTheme"
+	    android:layout_width="fill_parent"
+	    android:layout_height="@dimen/map_height"
+	    android:apiKey="05136w57sM3tUGbScbqlIybTYuaVay2pKDrtPZA"
+	    android:clickable="false" />
+
+	<ListView
+	    android:id="@+id/listView"
+	    style="@style/AppTheme"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/mapview"
+	    android:layout_centerHorizontal="true" >
+
+	</ListView>
+
+</RelativeLayout>

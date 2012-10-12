@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_checkin"
+        android:title="@string/menu_checkin"
+        android:orderInCategory="100"
+        android:showAsAction="always" android:icon="@drawable/checkin_icon"/>
+</menu>
